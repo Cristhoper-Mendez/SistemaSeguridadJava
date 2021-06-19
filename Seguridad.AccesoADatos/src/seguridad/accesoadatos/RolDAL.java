@@ -64,6 +64,7 @@ public class RolDAL {
                 ps.setString(1, pRol.getNombre()); // Agregar el parametro a la consulta donde estan el simbolo ? #1  
                 ps.setInt(2, pRol.getId()); // Agregar el parametro a la consulta donde estan el simbolo ? #2  
                 result = ps.executeUpdate(); // Ejecutar la consulta UPDATE en la base de datos
+                System.out.println(result);
                 ps.close(); // Cerrar el PreparedStatement
             } catch (SQLException ex) {
                 throw ex;  // Enviar al siguiente metodo el error al ejecutar PreparedStatement en el caso que suceda 
