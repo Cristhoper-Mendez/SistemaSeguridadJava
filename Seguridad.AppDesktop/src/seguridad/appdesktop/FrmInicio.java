@@ -103,9 +103,9 @@ public class FrmInicio extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void meRolActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_meRolActionPerformed
-        FrmRolLec frmRolLec = new FrmRolLec();
+        FrmRolLec frmRolLec = new FrmRolLec(this);
         frmRolLec.setVisible(true);
-        //this.setEnabled(false);
+        this.setEnabled(false);
     }//GEN-LAST:event_meRolActionPerformed
 
     private void meUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_meUsuarioActionPerformed
