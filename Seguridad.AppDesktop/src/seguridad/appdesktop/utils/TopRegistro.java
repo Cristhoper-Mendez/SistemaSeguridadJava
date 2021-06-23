@@ -22,6 +22,6 @@ public class TopRegistro {
     }
 
     public static void limpiarTopRegistro(javax.swing.JComboBox<ItemsCombo> pJComboBox) {
-        pJComboBox.setSelectedIndex(10);
+        pJComboBox.setSelectedItem(new ItemsCombo(10, null));
     }
 }
