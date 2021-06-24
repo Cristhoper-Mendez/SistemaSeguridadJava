@@ -164,6 +164,7 @@ public class FrmRolLec extends javax.swing.JFrame {
 
         jLabel2.setText("Top");
 
+        btnBuscar.setMnemonic('B');
         btnBuscar.setText("Buscar");
         btnBuscar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -171,6 +172,7 @@ public class FrmRolLec extends javax.swing.JFrame {
             }
         });
 
+        btnLimpiar.setMnemonic('L');
         btnLimpiar.setText("Limpiar");
         btnLimpiar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -191,6 +193,7 @@ public class FrmRolLec extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(tbRoles);
 
+        btnNuevo.setMnemonic('N');
         btnNuevo.setText("Nuevo");
         btnNuevo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -198,6 +201,7 @@ public class FrmRolLec extends javax.swing.JFrame {
             }
         });
 
+        btnModificar.setMnemonic('M');
         btnModificar.setText("Modificar");
         btnModificar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -205,6 +209,7 @@ public class FrmRolLec extends javax.swing.JFrame {
             }
         });
 
+        btnEliminar.setMnemonic('E');
         btnEliminar.setText("Eliminar");
         btnEliminar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -212,6 +217,7 @@ public class FrmRolLec extends javax.swing.JFrame {
             }
         });
 
+        btnVer.setMnemonic('V');
         btnVer.setText("Ver");
         btnVer.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -219,6 +225,7 @@ public class FrmRolLec extends javax.swing.JFrame {
             }
         });
 
+        btnCerrar.setMnemonic('C');
         btnCerrar.setText("Cerrar");
         btnCerrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

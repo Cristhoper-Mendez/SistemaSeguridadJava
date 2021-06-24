@@ -30,8 +30,10 @@ public class FrmInicio extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        meMantenimiento.setMnemonic('M');
         meMantenimiento.setText("Mantenimiento");
 
+        meRol.setMnemonic('R');
         meRol.setText("Rol");
         meRol.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -40,6 +42,7 @@ public class FrmInicio extends javax.swing.JFrame {
         });
         meMantenimiento.add(meRol);
 
+        meUsuario.setMnemonic('U');
         meUsuario.setText("Usuario");
         meUsuario.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -50,6 +53,7 @@ public class FrmInicio extends javax.swing.JFrame {
 
         meInicio.add(meMantenimiento);
 
+        meCambiarPassword.setMnemonic('P');
         meCambiarPassword.setText("Cambiar Password");
         meCambiarPassword.addMenuListener(new javax.swing.event.MenuListener() {
             public void menuCanceled(javax.swing.event.MenuEvent evt) {
@@ -62,6 +66,7 @@ public class FrmInicio extends javax.swing.JFrame {
         });
         meInicio.add(meCambiarPassword);
 
+        meCambiarUsuario.setMnemonic('U');
         meCambiarUsuario.setText("Cambiar Usuario");
         meCambiarUsuario.addMenuListener(new javax.swing.event.MenuListener() {
             public void menuCanceled(javax.swing.event.MenuEvent evt) {
@@ -74,6 +79,7 @@ public class FrmInicio extends javax.swing.JFrame {
         });
         meInicio.add(meCambiarUsuario);
 
+        meSalir.setMnemonic('S');
         meSalir.setText("Salir");
         meSalir.addMenuListener(new javax.swing.event.MenuListener() {
             public void menuCanceled(javax.swing.event.MenuEvent evt) {

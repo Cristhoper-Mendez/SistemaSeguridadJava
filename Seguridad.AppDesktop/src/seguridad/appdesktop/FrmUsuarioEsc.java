@@ -285,6 +285,7 @@ public class FrmUsuarioEsc extends javax.swing.JFrame {
 
         jLabel13.setText("Confirmar password*");
 
+        btnOk.setMnemonic('O');
         btnOk.setText("Ok");
         btnOk.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -292,6 +293,7 @@ public class FrmUsuarioEsc extends javax.swing.JFrame {
             }
         });
 
+        btnCancelar.setMnemonic('C');
         btnCancelar.setText("Cancelar");
         btnCancelar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

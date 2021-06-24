@@ -138,6 +138,7 @@ public class FrmCambiarPassword extends javax.swing.JFrame {
 
         jLabel4.setText("Confirmar password*");
 
+        btnCambiarPassword.setMnemonic('P');
         btnCambiarPassword.setText("Cambiar password");
         btnCambiarPassword.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -145,6 +146,7 @@ public class FrmCambiarPassword extends javax.swing.JFrame {
             }
         });
 
+        btnCancelar.setMnemonic('C');
         btnCancelar.setText("Cancelar");
         btnCancelar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

@@ -24,11 +24,13 @@
       <SubComponents>
         <Menu class="javax.swing.JMenu" name="meMantenimiento">
           <Properties>
+            <Property name="mnemonic" type="int" value="77"/>
             <Property name="text" type="java.lang.String" value="Mantenimiento"/>
           </Properties>
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="meRol">
               <Properties>
+                <Property name="mnemonic" type="int" value="82"/>
                 <Property name="text" type="java.lang.String" value="Rol"/>
               </Properties>
               <Events>
@@ -37,6 +39,7 @@
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="meUsuario">
               <Properties>
+                <Property name="mnemonic" type="int" value="85"/>
                 <Property name="text" type="java.lang.String" value="Usuario"/>
               </Properties>
               <Events>
@@ -47,6 +50,7 @@
         </Menu>
         <Menu class="javax.swing.JMenu" name="meCambiarPassword">
           <Properties>
+            <Property name="mnemonic" type="int" value="80"/>
             <Property name="text" type="java.lang.String" value="Cambiar Password"/>
           </Properties>
           <Events>
@@ -55,6 +59,7 @@
         </Menu>
         <Menu class="javax.swing.JMenu" name="meCambiarUsuario">
           <Properties>
+            <Property name="mnemonic" type="int" value="85"/>
             <Property name="text" type="java.lang.String" value="Cambiar Usuario"/>
           </Properties>
           <Events>
@@ -63,6 +68,7 @@
         </Menu>
         <Menu class="javax.swing.JMenu" name="meSalir">
           <Properties>
+            <Property name="mnemonic" type="int" value="83"/>
             <Property name="text" type="java.lang.String" value="Salir"/>
           </Properties>
           <Events>
