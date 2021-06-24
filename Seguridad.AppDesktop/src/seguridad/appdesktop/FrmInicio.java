@@ -109,16 +109,16 @@ public class FrmInicio extends javax.swing.JFrame {
     }//GEN-LAST:event_meRolActionPerformed
 
     private void meUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_meUsuarioActionPerformed
-        FrmUsuarioLec frmUsuarioLec = new FrmUsuarioLec();
+        FrmUsuarioLec frmUsuarioLec = new FrmUsuarioLec(this);
         frmUsuarioLec.setVisible(true);
-//         this.setEnabled(false);
+        this.setEnabled(false);
     }//GEN-LAST:event_meUsuarioActionPerformed
 
     private void meCambiarPasswordMenuSelected(javax.swing.event.MenuEvent evt) {//GEN-FIRST:event_meCambiarPasswordMenuSelected
         FrmCambiarPassword frmCambiarPassword = new FrmCambiarPassword(this);
         frmCambiarPassword.setVisible(true);
         frmCambiarPassword.setAlwaysOnTop(true);
-         this.setEnabled(false);
+        this.setEnabled(false);
     }//GEN-LAST:event_meCambiarPasswordMenuSelected
 
     private void meCambiarUsuarioMenuSelected(javax.swing.event.MenuEvent evt) {//GEN-FIRST:event_meCambiarUsuarioMenuSelected
